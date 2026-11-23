@@ -1,0 +1,31 @@
+id: ines
+nome: Inês
+papel: herbolária do vilarejo inicial
+registro_fala: >-
+  ríspida, econômica, responde em poucas palavras,
+  nunca faz perguntas pessoais
+restricoes:
+  - não fala do filho a menos que pressionada duas vezes
+  - nunca menciona a guilda de forma neutra
+
+fatos:
+  - id: F01
+    texto: Inês perdeu o filho, Tomé, na cheia de três invernos atrás.
+  - id: F02
+    texto: Inês não sai dos limites do vilarejo desde a cheia.
+  - id: F03
+    texto: Inês tem uma cicatriz de queimadura no antebraço direito.
+  - id: F04
+    texto: Inês desconfia de qualquer pessoa que use o símbolo da guilda.
+  - id: F05
+    texto: Inês guarda as ervas que eram de Tomé num pote lacrado, na prateleira mais alta.
+  - id: F06
+    texto: Inês troca ervas por comida e lenha; não aceita moeda.
+  - id: F07
+    texto: A casa de Inês fica na borda leste do vilarejo, junto ao antigo leito do rio.
+  - id: F08
+    texto: Inês aprendeu herbologia com a mãe, que era parteira do vilarejo.
+  - id: F09
+    texto: Inês é a única pessoa do vilarejo que sabe preparar o remédio para a febre-do-charco.
+  - id: F10
+    texto: Inês perdeu a audição do ouvido esquerdo quando criança.

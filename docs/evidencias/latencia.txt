@@ -1,0 +1,14 @@
+Medição de latência · 2026-11-23 14:45 · sessão ed52c508c0e3
+Gerador: qwen/qwen3.6-35b-a3b (reasoning_effort=none)
+Verificador: qwen/qwen3.6-35b-a3b (reasoning_effort=none)
+
+ #   geração  verific.    total  pergunta
+ 1      5.2s      6.8s    11.9s  Bom dia. Que ervas você tem hoje?
+ 2      4.2s      6.3s    10.6s  Como está o rio?
+ 3      4.4s      5.5s     9.9s  O inverno vai ser duro?
+ 4      4.3s      6.1s    10.3s  Você troca ervas por quê?
+ 5      4.6s      6.3s    11.0s  Quem te ensinou o ofício?
+
+Geração:     média 4.5 s · mediana 4.4 s
+Verificação: média 6.2 s · mediana 6.3 s
+Turno:       média 10.7 s · mín 9.9 s · máx 11.9 s

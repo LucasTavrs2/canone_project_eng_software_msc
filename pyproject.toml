@@ -1,0 +1,15 @@
+[project]
+name = "canone"
+version = "1.0.0"
+description = "Diálogo de NPC gerado por modelo de linguagem, com verificação de consistência canônica"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "requests>=2.31",
+    "PyYAML>=6.0",
+    "streamlit>=1.37",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

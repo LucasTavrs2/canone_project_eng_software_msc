@@ -1,0 +1,96 @@
+Teste do verificador · 2026-11-23 14:31
+Modelo: qwen/qwen3.6-35b-a3b · temperatura 0.1 · 10 fatos · 1 repetição(ões) por caso
+
+OK  Fui à feira da cidade no mês passado.
+     esperado: contradiz / F02
+     obtido:   contradiz / F02
+     A fala afirma que Inês foi à cidade, o que contradiz diretamente o fato de que ela não sai dos limites do vilarejo desde a cheia.
+
+OK  Minha mãe era ferreira, me ensinou a bater no ferro.
+     esperado: contradiz / F08
+     obtido:   contradiz / F08
+     O fato F08 afirma que Inês aprendeu herbologia com a mãe, que era parteira, o que contradiz a fala de que a mãe era ferreira.
+
+OK  A guilda é gente boa, confio neles.
+     esperado: contradiz / F04
+     obtido:   contradiz / F04
+     A fala expressa confiança na guilda, o que contradiz diretamente o fato de que Inês desconfia de qualquer pessoa que use o símbolo da guilda.
+
+OK  A queimadura fica no meu antebraço esquerdo.
+     esperado: contradiz / F03
+     obtido:   contradiz / F03
+     A fala afirma que a queimadura está no antebraço esquerdo, o que contradiz diretamente o fato F03, que especifica que a cicatriz de queimadura está no antebraço direito.
+
+OK  Aceito moeda de prata, se tiver.
+     esperado: contradiz / F06
+     obtido:   contradiz / F06
+     A fala afirma que aceita moeda, o que contradiz diretamente o fato F06, que estabelece que Inês não aceita moeda.
+
+OK  Tem outra herbolária no norte que também faz o remédio.
+     esperado: contradiz / F09
+     obtido:   contradiz / F09
+     O fato F09 afirma que Inês é a única pessoa do vilarejo que sabe preparar o remédio, o que contradiz a fala que menciona outra herbolária no norte que também o faz.
+
+OK  Meu filho Tomé está lá fora cortando lenha.
+     esperado: contradiz / F01
+     obtido:   contradiz / F01
+     A fala afirma que o filho Tomé está vivo e presente, o que contradiz diretamente o fato de que Inês perdeu o filho na cheia de três invernos atrás.
+
+OK  Minha casa fica na borda oeste, perto da colina.
+     esperado: contradiz / F07
+     obtido:   contradiz / F07
+     A fala afirma que a casa fica na borda oeste, o que contradiz diretamente o fato F07, que estabelece que a casa de Inês fica na borda leste do vilarejo.
+
+OK  Troco ervas por lenha e grão.
+     esperado: consistente / None
+     obtido:   consistente / None
+     A fala afirma que Inês troca ervas por lenha e grão, o que é consistente com o fato [F06] que diz que ela troca ervas por comida e lenha. Grão é um tipo de comida, portanto não há contradição.
+
+OK  Aprendi tudo com minha mãe.
+     esperado: consistente / None
+     obtido:   consistente / None
+     A fala é compatível com o Fato [F08], que afirma que Inês aprendeu herbologia com a mãe, sem contradizer nenhum outro fato listado.
+
+OK  Não saio daqui desde a cheia.
+     esperado: consistente / None
+     obtido:   consistente / None
+     A fala confirma o fato [F02] de que Inês não sai do vilarejo desde a cheia, sem contradizer nenhum outro fato.
+
+OK  Gosto do cheiro de alecrim pela manhã.
+     esperado: consistente / None
+     obtido:   consistente / None
+     A fala expressa uma preferência pessoal por um cheiro, o que não contradiz nenhum dos fatos listados sobre a vida, saúde, objetos ou habilidades de Inês.
+
+--  Faz tempo que não vou tão longe assim. (sem gabarito)
+     esperado: ? / None
+     obtido:   consistente / None
+     A fala indica que a personagem viajou uma distância significativa recentemente, o que não contradiz o fato de ela não sair dos limites do vilarejo desde a cheia, pois o vilarejo pode ter extensão suficiente para justificar a sensação de 'longe' ou a fala pode referir-se a viagens anteriores à cheia.
+
+--  O menino já deve estar quase da minha altura. (sem gabarito)
+     esperado: ? / None
+     obtido:   consistente / None
+     A fala é uma especulação sobre o crescimento de uma criança e não contradiz nenhum dos fatos listados, que tratam de eventos passados, condições físicas ou hábitos de Inês.
+
+--  Peguei essas ervas na estrada da serra. (sem gabarito)
+     esperado: ? / None
+     obtido:   indeterminado / None
+     A fala menciona a origem das ervas ('estrada da serra'), o que não contradiz diretamente os fatos listados, mas também não é confirmado por eles. Como não há informação suficiente para determinar se essa afirmação é verdadeira ou falsa em relação aos fatos, o veredito é indeterminado.
+
+OK  Meu ouvido bom é o esquerdo.
+     esperado: contradiz / F10
+     obtido:   contradiz / F10
+     A fala afirma que o ouvido esquerdo é bom, o que contradiz diretamente o fato F10 que afirma que Inês perdeu a audição do ouvido esquerdo.
+
+--  Conheço um da guilda que é decente. (sem gabarito)
+     esperado: ? / None
+     obtido:   consistente / None
+     A fala não nega o fato de Inês desconfiar de qualquer pessoa que use o símbolo da guilda; ela apenas expressa uma exceção ou opinião específica sobre um indivíduo, o que não é logicamente incompatível com uma regra geral de desconfiança.
+
+OK  A prateleira de baixo é onde guardo o que era do Tomé.
+     esperado: contradiz / F05
+     obtido:   contradiz / F05
+     A fala afirma que o que era de Tomé está na prateleira de baixo, o que contradiz diretamente o fato F05, que especifica que Inês guarda esses itens na prateleira mais alta.
+
+Vereditos corretos: 14/14
+Fatos corretos:     10/10
+Latência por verificação: média 7.0 s · mín 6.1 s · máx 8.3 s

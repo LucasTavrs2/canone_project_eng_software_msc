@@ -1,0 +1,40 @@
+Demonstração do Cenário Negativo 1 · 2026-11-23 14:38
+Verificador: qwen/qwen3.6-35b-a3b · temperatura 0.1 · 3 repetições por fala
+
+Cânone ativo de Inês (10 fatos):
+  [F01] Inês perdeu o filho, Tomé, na cheia de três invernos atrás.
+  [F02] Inês não sai dos limites do vilarejo desde a cheia.
+  [F03] Inês tem uma cicatriz de queimadura no antebraço direito.
+  [F04] Inês desconfia de qualquer pessoa que use o símbolo da guilda.
+  [F05] Inês guarda as ervas que eram de Tomé num pote lacrado, na prateleira mais alta.
+  [F06] Inês troca ervas por comida e lenha; não aceita moeda.
+  [F07] A casa de Inês fica na borda leste do vilarejo, junto ao antigo leito do rio.
+  [F08] Inês aprendeu herbologia com a mãe, que era parteira do vilarejo.
+  [F09] Inês é a única pessoa do vilarejo que sabe preparar o remédio para a febre-do-charco.
+  [F10] Inês perdeu a audição do ouvido esquerdo quando criança.
+
+Fase 1 · o NPC inventa um detalhe, que não é promovido
+  fala: "Meu marido trabalhava pra guilda. Morreu antes da cheia."
+  veredito: consistente  (3/3)
+  justificativa: A fala menciona o marido e a guilda, mas nenhum fato lista o marido de Inês ou proíbe que ele tenha trabalhado para a guilda antes de morrer.
+  -> informação nova não é contradição; nada a sinalizar.
+
+Fase 2 · quinze falas depois, o NPC contradiz o que inventou
+  fala: "Nunca tive marido. Criei o Tomé sozinha desde o começo."
+  veredito: consistente  (3/3)
+  justificativa: A fala não contradiz nenhum fato listado; o fato de ter criado o filho sozinha não exclui a possibilidade de ter tido um marido anteriormente ou não, sendo uma informação nova compatível com o contexto.
+  -> Cenário Negativo 1: a contradição é entre duas falas do NPC, e o
+     verificador só compara cada fala com o cânone declarado.
+
+Fase 3 · a roteirista promove o detalhe a fato canônico
+  [F11] Inês foi casada.  (origem: promovido)
+
+Fase 4 · a mesma fala da fase 2, verificada de novo
+  fala: "Nunca tive marido. Criei o Tomé sozinha desde o começo."
+  veredito: contradiz / F11  (3/3)
+  justificativa: A fala afirma que nunca teve marido, o que contradiz diretamente o fato F11 que afirma que Inês foi casada.
+
+Resumo
+  fase 2 antes da promoção: consistente
+  fase 2 depois da promoção: contradiz / F11
+  Resultado conforme o esperado: a promoção é o que torna a contradição detectável.
