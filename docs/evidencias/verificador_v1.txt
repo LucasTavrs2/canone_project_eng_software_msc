@@ -1,92 +1,92 @@
-﻿OK  Fui ├á feira da cidade no m├¬s passado.
+OK  Fui à feira da cidade no mês passado.
      esperado: contradiz / F02
      obtido:   contradiz / F02
-     A fala afirma que In├¬s foi ├á cidade, o que contradiz diretamente o fato de que ela n├úo sai dos limites do vilarejo desde a cheia.
+     A fala afirma que Inês foi à cidade, o que contradiz diretamente o fato de que ela não sai dos limites do vilarejo desde a cheia.
 
-OK  Minha m├úe era ferreira, me ensinou a bater no ferro.
+OK  Minha mãe era ferreira, me ensinou a bater no ferro.
      esperado: contradiz / F08
      obtido:   contradiz / F08
-     O fato F08 afirma que In├¬s aprendeu herbologia com a m├úe, que era parteira, o que contradiz a fala de que a m├úe era ferreira.
+     O fato F08 afirma que Inês aprendeu herbologia com a mãe, que era parteira, o que contradiz a fala de que a mãe era ferreira.
 
-OK  A guilda ├® gente boa, confio neles.
+OK  A guilda é gente boa, confio neles.
      esperado: contradiz / F04
      obtido:   contradiz / F04
-     A fala expressa confian├ºa na guilda, o que contradiz diretamente o fato de que In├¬s desconfia de qualquer pessoa que use o s├¡mbolo da guilda.
+     A fala expressa confiança na guilda, o que contradiz diretamente o fato de que Inês desconfia de qualquer pessoa que use o símbolo da guilda.
 
-OK  A queimadura fica no meu antebra├ºo esquerdo.
+OK  A queimadura fica no meu antebraço esquerdo.
      esperado: contradiz / F03
      obtido:   contradiz / F03
-     A fala afirma que a queimadura est├í no antebra├ºo esquerdo, o que contradiz diretamente o fato F03, que estabelece que a cicatriz de queimadura est├í no antebra├ºo direito.
+     A fala afirma que a queimadura está no antebraço esquerdo, o que contradiz diretamente o fato F03, que estabelece que a cicatriz de queimadura está no antebraço direito.
 
 OK  Aceito moeda de prata, se tiver.
      esperado: contradiz / F06
      obtido:   contradiz / F06
-     A fala afirma que In├¬s aceita moeda de prata, o que contradiz diretamente o fato F06, que estabelece que ela n├úo aceita moeda.
+     A fala afirma que Inês aceita moeda de prata, o que contradiz diretamente o fato F06, que estabelece que ela não aceita moeda.
 
-OK  Tem outra herbol├íria no norte que tamb├®m faz o rem├®dio.
+OK  Tem outra herbolária no norte que também faz o remédio.
      esperado: contradiz / F09
      obtido:   contradiz / F09
-     O fato F09 afirma que In├¬s ├® a ├║nica pessoa do vilarejo que sabe preparar o rem├®dio para a febre-do-charco, o que contradiz a fala que indica a exist├¬ncia de outra herbol├íria que tamb├®m o faz.
+     O fato F09 afirma que Inês é a única pessoa do vilarejo que sabe preparar o remédio para a febre-do-charco, o que contradiz a fala que indica a existência de outra herbolária que também o faz.
 
-OK  Meu filho Tom├® est├í l├í fora cortando lenha.
+OK  Meu filho Tomé está lá fora cortando lenha.
      esperado: contradiz / F01
      obtido:   contradiz / F01
-     A fala afirma que o filho Tom├® est├í vivo e presente, o que contradiz diretamente o fato de que In├¬s perdeu o filho na cheia de tr├¬s invernos atr├ís.
+     A fala afirma que o filho Tomé está vivo e presente, o que contradiz diretamente o fato de que Inês perdeu o filho na cheia de três invernos atrás.
 
 OK  Minha casa fica na borda oeste, perto da colina.
      esperado: contradiz / F07
      obtido:   contradiz / F07
      A fala afirma que a casa fica na borda oeste, o que contradiz diretamente o fato F07, que estabelece que a casa fica na borda leste.
 
-OK  Troco ervas por lenha e gr├úo.
+OK  Troco ervas por lenha e grão.
      esperado: consistente / None
      obtido:   consistente / None
-     A fala afirma que In├¬s troca ervas por lenha e gr├úo, o que ├® consistente com o fato [F06] que diz que ela troca ervas por comida e lenha, sem aceitar moeda. Gr├úo ├® um tipo de comida, portanto n├úo h├í contradi├º├úo.
+     A fala afirma que Inês troca ervas por lenha e grão, o que é consistente com o fato [F06] que diz que ela troca ervas por comida e lenha, sem aceitar moeda. Grão é um tipo de comida, portanto não há contradição.
 
-OK  Aprendi tudo com minha m├úe.
+OK  Aprendi tudo com minha mãe.
      esperado: consistente / None
      obtido:   consistente / None
-     A fala ├® compat├¡vel com o Fato [F08], que afirma que In├¬s aprendeu herbologia com a m├úe, sem contradizer nenhum outro fato.
+     A fala é compatível com o Fato [F08], que afirma que Inês aprendeu herbologia com a mãe, sem contradizer nenhum outro fato.
 
-OK  N├úo saio daqui desde a cheia.
+OK  Não saio daqui desde a cheia.
      esperado: consistente / None
      obtido:   consistente / None
-     A fala confirma o fato [F02] de que In├¬s n├úo sai do vilarejo desde a cheia, sem contradizer nenhum outro fato.
+     A fala confirma o fato [F02] de que Inês não sai do vilarejo desde a cheia, sem contradizer nenhum outro fato.
 
-OK  Gosto do cheiro de alecrim pela manh├ú.
+OK  Gosto do cheiro de alecrim pela manhã.
      esperado: consistente / None
      obtido:   consistente / None
-     A fala expressa uma prefer├¬ncia pessoal e n├úo contradiz nenhum dos fatos listados sobre a vida, sa├║de ou h├íbitos de In├¬s.
+     A fala expressa uma preferência pessoal e não contradiz nenhum dos fatos listados sobre a vida, saúde ou hábitos de Inês.
 
---  Faz tempo que n├úo vou t├úo longe assim. (sem gabarito)
+--  Faz tempo que não vou tão longe assim. (sem gabarito)
      esperado: ? / None
      obtido:   consistente / None
-     A fala indica que a personagem viajou uma dist├óncia significativa recentemente, o que n├úo contradiz o fato de ela n├úo sair dos limites do vilarejo desde a cheia, pois o vilarejo pode ter extens├úo suficiente para justificar a sensa├º├úo de 'longe'.
+     A fala indica que a personagem viajou uma distância significativa recentemente, o que não contradiz o fato de ela não sair dos limites do vilarejo desde a cheia, pois o vilarejo pode ter extensão suficiente para justificar a sensação de 'longe'.
 
---  O menino j├í deve estar quase da minha altura. (sem gabarito)
+--  O menino já deve estar quase da minha altura. (sem gabarito)
      esperado: ? / None
      obtido:   consistente / None
-     A fala ├® uma especula├º├úo sobre o crescimento de uma crian├ºa e n├úo afirma nenhum fato que contradita os dados fornecidos, como a morte do filho ou a localiza├º├úo de In├¬s.
+     A fala é uma especulação sobre o crescimento de uma criança e não afirma nenhum fato que contradita os dados fornecidos, como a morte do filho ou a localização de Inês.
 
 --  Peguei essas ervas na estrada da serra. (sem gabarito)
      esperado: ? / None
      obtido:   consistente / None
-     A fala n├úo contradiz nenhum fato listado; o fato de ter pegado ervas na estrada da serra n├úo impede que ela as guarde no pote lacrado ou que as tenha trocado anteriormente, pois a fala refere-se ├á origem recente das ervas, n├úo ├á sua posse atual ou m├®todo de obten├º├úo hist├│rica.
+     A fala não contradiz nenhum fato listado; o fato de ter pegado ervas na estrada da serra não impede que ela as guarde no pote lacrado ou que as tenha trocado anteriormente, pois a fala refere-se à origem recente das ervas, não à sua posse atual ou método de obtenção histórica.
 
-OK  Meu ouvido bom ├® o esquerdo.
+OK  Meu ouvido bom é o esquerdo.
      esperado: contradiz / F10
      obtido:   contradiz / F10
-     A fala afirma que o ouvido esquerdo ├® bom, o que contradiz diretamente o fato F10, que afirma que In├¬s perdeu a audi├º├úo do ouvido esquerdo.
+     A fala afirma que o ouvido esquerdo é bom, o que contradiz diretamente o fato F10, que afirma que Inês perdeu a audição do ouvido esquerdo.
 
---  Conhe├ºo um da guilda que ├® decente. (sem gabarito)
+--  Conheço um da guilda que é decente. (sem gabarito)
      esperado: ? / None
      obtido:   indeterminado / None
-     A fala afirma que In├¬s conhece algu├®m da guilda que ├® decente. O Fato [F04] diz que ela desconfia de qualquer pessoa que use o s├¡mbolo da guilda. Desconfiar de algu├®m n├úo ├® necessariamente uma contradi├º├úo l├│gica com conhecer essa pessoa ou consider├í-la decente em algum aspecto, pois desconfian├ºa pode ser um preconceito ou cautela geral, enquanto 'decente' pode ser uma avalia├º├úo espec├¡fica. N├úo h├í uma nega├º├úo expl├¡cita de que ela conhe├ºa algu├®m da guilda. Portanto, ├® indeterminado se a afirma├º├úo contradiz o fato ou se ├® apenas uma nuance da desconfian├ºa.
+     A fala afirma que Inês conhece alguém da guilda que é decente. O Fato [F04] diz que ela desconfia de qualquer pessoa que use o símbolo da guilda. Desconfiar de alguém não é necessariamente uma contradição lógica com conhecer essa pessoa ou considerá-la decente em algum aspecto, pois desconfiança pode ser um preconceito ou cautela geral, enquanto 'decente' pode ser uma avaliação específica. Não há uma negação explícita de que ela conheça alguém da guilda. Portanto, é indeterminado se a afirmação contradiz o fato ou se é apenas uma nuance da desconfiança.
 
-OK  A prateleira de baixo ├® onde guardo o que era do Tom├®.
+OK  A prateleira de baixo é onde guardo o que era do Tomé.
      esperado: contradiz / F05
      obtido:   contradiz / F05
-     A fala afirma que o que era de Tom├® est├í na prateleira de baixo, o que contradiz diretamente o fato F05, que especifica que In├¬s guarda essas ervas na prateleira mais alta.
+     A fala afirma que o que era de Tomé está na prateleira de baixo, o que contradiz diretamente o fato F05, que especifica que Inês guarda essas ervas na prateleira mais alta.
 
 Vereditos corretos: 14/14
 Fatos corretos:     10/10
